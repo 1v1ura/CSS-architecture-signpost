@@ -1,4 +1,5 @@
-ul, li {
+ul,
+li {
   margin: 0;
   padding: 0;
 }
@@ -18,7 +19,7 @@ ul, li {
   + .column {
     margin-top: $gutter;
   }
-  
+
   > .col {
     flex: 0 0 auto;
     margin-top: $gutter;
@@ -29,27 +30,27 @@ ul, li {
 
   &.column-1 {
     > .col {
-      width: calc( 100% - #{$gutter} );
+      width: calc(100% - #{$gutter});
 
       &:first-child {
         margin-top: 0;
       }
     }
   }
-  
+
   &.column-2 {
     > .col {
-      width: calc( (100% - #{$gutter} * 2) / 2);
+      width: calc((100% - #{$gutter} * 2) / 2);
 
       &:nth-child(-n + 2) {
         margin-top: 0;
       }
     }
   }
-  
+
   &.column-3 {
     > .col {
-      width: calc( (100% - #{$gutter} * 3) / 3);
+      width: calc((100% - #{$gutter} * 3) / 3);
 
       &:nth-child(-n + 3) {
         margin-top: 0;
