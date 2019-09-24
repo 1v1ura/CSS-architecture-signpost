@@ -1,0 +1,15 @@
+{
+  "name": "css-architecture-signpost",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tkm-mur/CSS-architecture-signpost.git",
+  "author": "Takuma Miura <21156330+tkm-mur@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.22.12"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
