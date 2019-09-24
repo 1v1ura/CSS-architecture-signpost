@@ -1,0 +1,45 @@
+.wrap {
+  margin: 20px;
+}
+
+.mb20 {
+  margin-bottom: 20px !important;
+}
+
+.btn {
+  box-sizing: border-box;
+  appearance: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 10px 50px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  cursor: pointer;
+
+  &--blue {
+    // width: 300px; // NG!! ”blue”という名前が担保するべき責任を超えている
+    color: #fff;
+    background: blue;
+    border-color: blue;
+  }
+
+  &--red {
+    color: #fff;
+    background: red;
+    border-color: red;
+  }
+
+  &:disabled {
+    color: #a6a6a6;
+    background: #d1d1d1;
+    border-color: #d1d1d1;
+    cursor: default;
+  }
+
+  &--full {
+    width: 100%;
+  }
+}
